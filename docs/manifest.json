@@ -60,9 +60,9 @@
 				"settings": {
 					"bundleName": "com.crossroadsbiriyani.customer.cart.i18n.i18n",
 					"supportedLocales": [
-						"en-US","en-us"
+						
 					],
-					"fallbackLocale": "en-US"
+					"fallbackLocale": ""
 				}
 			},
 			"": {
