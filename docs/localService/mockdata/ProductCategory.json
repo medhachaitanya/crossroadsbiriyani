@@ -1,47 +1,52 @@
 [
 	{
-		"CategoryName" : "Entrees",
-		"Category" : "AC",
-		"NumberOfProducts" : 34
-	},
-	{
-		"CategoryName" : "Appetizers VEG & NON-VEG",
-		"Category" : "DC",
-		"NumberOfProducts" : 5
-	},
-	{
-		"CategoryName" : "Curries: VEG",
-		"Category" : "FS",
+		"CategoryName" : "Snacks",
+		"Category" : "SK",
 		"NumberOfProducts" : 3
 	},
 	{
-		"CategoryName" : "Curries: NON-VEG",
-		"Category" : "KB",
-		"NumberOfProducts" : 4
+		"CategoryName" : "Appetizers VEG",
+		"Category" : "AV",
+		"NumberOfProducts" : 6
 	},
 	{
-		"CategoryName" : "Indian Breads",
-		"Category" : "LT",
-		"NumberOfProducts" : 11
+		"CategoryName" : "Appetizers NON-VEG",
+		"Category" : "ANV",
+		"NumberOfProducts" :14
+	},
+	{
+		"CategoryName" : "Bread & Roti",
+		"Category" : "RT",
+		"NumberOfProducts" : 5
 	},
 	{
 		"CategoryName" : "Biryanis",
-		"Category" : "PR",
-		"NumberOfProducts" : 9
+		"Category" : "BR",
+		"NumberOfProducts" : 12
 	},
 	{
 		"CategoryName" : "Rice & Noodles",
-		"Category" : "ST",
-		"NumberOfProducts" : 9
+		"Category" : "RN",
+		"NumberOfProducts" : 10
 	},
 	{
 		"CategoryName" : "Tandoori Appetizers",
-		"Category" : "MI",
-		"NumberOfProducts" : 7
+		"Category" : "TA",
+		"NumberOfProducts" : 6
 	},
 	{
 		"CategoryName" : "Drinks",
-		"Category" : "CSA",
-		"NumberOfProducts" : 7
+		"Category" : "DR",
+		"NumberOfProducts" : 4
+	},
+	{
+		"CategoryName" : "Veg Curries",
+		"Category" : "VC",
+		"NumberOfProducts" : 8
+	},
+	{
+		"CategoryName" : "Non-Veg Curries",
+		"Category" : "NVC",
+		"NumberOfProducts" : 13
 	}
 ]
