@@ -1,54 +1,34 @@
 [
   {
-    "ProductId": "HT-6132",
+    "ProductId": "AV-1003",
     "Type": "Promoted"
   },
   {
-    "ProductId": "HT-1000",
+    "ProductId": "AV-1005",
     "Type": "Promoted"
   },
   {
-    "ProductId": "HT-1113",
+    "ProductId": "ANV-1003",
     "Type": "Promoted"
   },
   {
-    "ProductId": "HT-6130",
+    "ProductId": "ANV-1006",
     "Type": "Promoted"
   },
   {
-    "ProductId": "HT-1040",
+    "ProductId": "ANV-1007",
     "Type": "Promoted"
   },
   {
-    "ProductId": "HT-9992",
+    "ProductId": "BR-1001",
     "Type": "Viewed"
   },
   {
-    "ProductId": "HT-6130",
+    "ProductId": "BR-1011",
     "Type": "Viewed"
   },
   {
-    "ProductId": "HT-6110",
+    "ProductId": "VC-1001",
     "Type": "Viewed"
-  },
-  {
-    "ProductId": "HT-9997",
-    "Type": "Viewed"
-  },
-  {
-    "ProductId": "HT-8000",
-    "Type": "Favorite"
-  },
-  {
-    "ProductId": "HT-6100",
-    "Type": "Favorite"
-  },
-  {
-    "ProductId": "HT-6111",
-    "Type": "Favorite"
-  },
-  {
-    "ProductId": "HT-1041",
-    "Type": "Favorite"
   }
 ]
