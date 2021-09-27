@@ -270,7 +270,7 @@ sap.ui.define([
 				iShouldSeeTheTotalPriceEqualToZero : function () {
 					return this.waitFor({
 						id: "totalPriceText",
-						matchers: new PropertyStrictEquals({name: "text", value: "Total: 0,00 EUR"}),
+						matchers: new PropertyStrictEquals({name: "text", value: "Total: 0,00 USD"}),
 						success: function () {
 							Opa5.assert.ok(true, "Total price is updated correctly");
 						},
@@ -281,7 +281,7 @@ sap.ui.define([
 				iShouldSeeTheTotalPriceUpdated: function () {
 					return this.waitFor({
 						id: "totalPriceText",
-						matchers: new PropertyStrictEquals({name: "text", value: "Total: 250,00 EUR"}),
+						matchers: new PropertyStrictEquals({name: "text", value: "Total: 250,00 USD"}),
 						success: function () {
 							Opa5.assert.ok(true, "Total price is updated correctly");
 						},

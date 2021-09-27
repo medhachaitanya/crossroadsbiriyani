@@ -400,7 +400,7 @@ sap.ui.define([
 				iShouldSeeAnAvailabilityAndPriceInfoToolbar: function () {
 					this.waitFor({
 						id: "categoryInfoToolbarTitle",
-						matchers: new PropertyStrictEquals({name: "text", value: "Filtered by Availability, Price (200 - 500 EUR)"}),
+						matchers: new PropertyStrictEquals({name: "text", value: "Filtered by Availability, Price (200 - 500 USD)"}),
 						success: function () {
 							Opa5.assert.ok(true, "The category list has info toolbar");
 						},
