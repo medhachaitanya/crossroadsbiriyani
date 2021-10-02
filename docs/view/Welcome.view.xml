@@ -46,20 +46,18 @@
 			<l:BlockLayout background="Light">
 				<l:BlockLayoutRow>
 					<l:BlockLayoutCell class="sapUiNoContentPadding">
+					<!-- {=!${device>/system/phone}} -->
 						<Carousel
 							id="welcomeCarousel"
 							showPageIndicator="false"
 							loop="true"
 							pageChanged=".onCarouselPageChanged"
-							visible="{=!${device>/system/phone}}"
+							visible="true"
 							tooltip="{i18n>welcomeDescription}">
 							<pages>
 								<VBox renderType="Bare">
 									<Image
-										src="{
-											path: 'view>/welcomeCarouselShipping',
-											formatter : '.formatter.pictureUrl'
-											}"
+										src="/img/c1.jpeg"
 										width="100%"
 										height="100%"/>
 									<Text
@@ -68,10 +66,7 @@
 								</VBox>
 								<VBox renderType="Bare">
 									<Image
-										src="{
-											path: 'view>/welcomeCarouselInviteFriend',
-											formatter : '.formatter.pictureUrl'
-										}"
+										src="/img/c2.jpeg"
 										width="100%"
 										height="100%"/>
 									<Text
@@ -80,10 +75,7 @@
 								</VBox>
 								<VBox renderType="Bare">
 									<Image
-										src="{
-											path: 'view>/welcomeCarouselTablet',
-											formatter : '.formatter.pictureUrl'
-											}"
+										src="/img/c3.jpeg"
 										width="100%"
 										height="100%"/>
 									<Text
@@ -92,10 +84,7 @@
 								</VBox>
 								<VBox renderType="Bare">
 									<Image
-										src="{
-											path: 'view>/welcomeCarouselCreditCard',
-											formatter : '.formatter.pictureUrl'
-											}"
+										src="/img/c4.jpeg"
 										width="100%"
 										height="100%"/>
 									<Text
@@ -107,6 +96,7 @@
 					</l:BlockLayoutCell>
 				</l:BlockLayoutRow>
 			</l:BlockLayout>
+			
 			<Panel
 				id="panelPromoted"
 				accessibleRole="Region"
